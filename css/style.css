@@ -1,0 +1,46 @@
+
+body{
+    background-color: rgb(88, 81, 81);;
+}
+nav ul li{
+    text-align: center;
+    display: inline;
+    margin: 25px;
+
+
+}
+nav ul li a{
+    
+    background-color: rgb(38, 0, 128);
+    color: white;
+    font-weight: bolder;
+    
+
+}
+h1{
+ 
+    text-align: center;
+    background-color: blue;
+    color:white;
+
+}
+nav{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: white;
+    background-color:blue;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: blue;
+    font-weight: bolder;
+}
+p{
+    font-weight: bolder;
+    font-size: 15px;
+    color:red;
+    text-align: center;
+}
