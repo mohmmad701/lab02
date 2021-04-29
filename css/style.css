@@ -1,46 +1,52 @@
 
 body{
-    background-color: rgb(88, 81, 81);;
-}
-nav ul li{
-    text-align: center;
-    display: inline;
-    margin: 25px;
-
+    background-image: url(http://www.catholicyyc.ca/uploads/6/5/5/7/65570685/faithfully-highlight-images-2_orig.png
+    );
+  
 
 }
-nav ul li a{
-    
-    background-color: rgb(38, 0, 128);
-    color: white;
-    font-weight: bolder;
-    
+main {
+    font-family: 'Orelega One', cursive;
 
 }
 h1{
- 
-    text-align: center;
-    background-color: blue;
-    color:white;
-
-}
-nav{
-    text-align: center;
+    color: rgb(24, 21, 2);
+    font-family: 'Orelega One', cursive;
+    text-align:center;
+    
 }
 h2{
-    text-align: center;
+    
+  
+   
+    color: darkgoldenrod;
+    font-family: 'Orelega One', cursive;
+    text-align:center;
+
+}
+hr{
+    color: darkgreen;
+}
+
+
+nav ul li {
+    display: inline-block;
     color: white;
-    background-color:blue;
+    margin-top: 34px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding-right: 16px;
+}
+
+#secound_nav{
+    color: darkcyan;
+    text-decoration:darkgreen;
+    font-weight: bold;
+  
 }
 footer{
     text-align: center;
-    color: white;
-    background-color: blue;
-    font-weight: bolder;
-}
-p{
-    font-weight: bolder;
-    font-size: 15px;
-    color:red;
-    text-align: center;
+    color:goldenrod;
+    background-color: brown;
+    
 }
