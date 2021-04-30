@@ -101,10 +101,11 @@ main{
 img {
     width: 150px;
     height: 150px;
-    display: block;
-    float: right;
-    padding: 15px;
-    border-radius: 150px;
+    display:block;
+    float: inline-end;
+    padding: 10px;
+    border-radius: 200px;
+
    
 }
 
@@ -112,7 +113,7 @@ header{
     
     height: 80px;
     
-    background-color: black;
+    background-color:black;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
