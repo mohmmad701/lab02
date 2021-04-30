@@ -1,45 +1,57 @@
 
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 body{
     background-image: url(http://www.catholicyyc.ca/uploads/6/5/5/7/65570685/faithfully-highlight-images-2_orig.png
     );
   
 
 }
-main {
-    font-family: 'Orelega One', cursive;
 
-}
-h1{
-    color: rgb(24, 21, 2);
+#first_one{
+    color:goldenrod;
     font-family: 'Orelega One', cursive;
     text-align:center;
+    background-color: black;
     
 }
-h2{
+#first_tow{
     
-  
-   
     color: darkgoldenrod;
     font-family: 'Orelega One', cursive;
     text-align:center;
+    background-color: black;
+    
 
 }
-hr{
-    color: darkgreen;
+ol li{
+    color: goldenrod;
+    background-color: rgba(0, 0, 0, 0.486);
+
 }
 
 
-nav ul li {
+
+ nav ul li {
     display: inline-block;
-    color: white;
+
     margin-top: 34px;
     margin-bottom: 20px;
     margin-left: 20px;
     padding-right: 16px;
+    font-weight: bold;
+    background-color:black;
+    color: goldenrod;
+    font-family: 'Orelega One', cursive;
+
+
 }
 
-#secound_nav{
-    color: darkcyan;
+ol{
+    color: black;
     text-decoration:darkgreen;
     font-weight: bold;
   
@@ -48,5 +60,73 @@ footer{
     text-align: center;
     color:goldenrod;
     background-color: brown;
+    font-weight: bold;
+    background-color: gray;
     
+}
+main{
+    color: darkcyan;
+    text-decoration:darkgreen;
+    font-weight: bold;
+    
+}
+#h11{
+    color: goldenrod;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Orelega One', cursive;
+}
+#ttt{
+    color :red;
+    
+}ul li{
+    color: goldenrod;
+    background-color: rgba(0, 0, 0, 0.555);
+   
+
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.151);
+    font-family: 'Orelega One', cursive;
+}
+
+
+.logo{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin: 400%;
+
+}
+img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    float: right;
+    padding: 15px;
+    border-radius: 150px;
+   
+}
+
+header{
+    
+    height: 80px;
+    
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /* justify-content: center; */
+    justify-content: space-between;
+   
+    
+    
+}
+
+
+div{
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: #000000d1;
+    position: relative;
 }
